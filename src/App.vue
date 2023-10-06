@@ -5,65 +5,67 @@
     </router-link>
   </header>
   <main>
-    <router-view/>
+    <router-view />
   </main>
   <footer>
     <h1><span>Favorite</span>Movies</h1>
+    <h2>By Ramon</h2>
   </footer>
 </template>
 
 <style lang="scss">
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: "Fira Sans", sans-serif;
 
-  &::selection{
-    background:transparentize(#42b883, 0.5);
-
+  &::selection {
+    background: transparentize(#42b883, 0.5);
   }
 
-  body{
+  body {
     background-color: #35495e;
-  } 
+  }
 
-  a{
+  a {
     text-decoration: none;
   }
 
-  header{
+  header {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 10px 16px;
     background-color: #2c3d4e;
-    box-shadow: 0px 0px 6px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
 
-    h1{
+    h1 {
       color: #ffff;
       font-size: 28px;
 
-      span{
+      span {
         color: #42b883;
       }
     }
-
   }
-  footer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  footer {
     padding: 18px 16px;
     background-color: #2c3d4e;
-    box-shadow: 0px 0px 6px rgba(0,0,0,0.1);
-    h1{
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
+    h1 {
       color: #ffff;
       font-size: 28px;
+      text-align: -webkit-center;
 
-      span{
+      span {
         color: #42b883;
       }
+    }
+    h2 {
+      color: #ffff;
+      font-size: 10px;
+      text-align: -webkit-center;
     }
   }
 }
