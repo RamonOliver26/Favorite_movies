@@ -1,17 +1,18 @@
-# movie_list
+# Filmes Fvoritos
+
+# Projeto desenvolvido com o intuito de pesquisar ou lembrar seus filmes, séries e jogos  favoritos e em que ano foram lançados, para poder assistir em outras plataformas ou compra-los para seu game favorito.
+# Ainda em desenvolvimento para inclusão de novas funcionalidades.
 
 ## Project setup
-```
+
 yarn install
+npm install
 ```
 
 ### Compiles and hot-reloads for development
 ```
-yarn serve
-```
-### Lints and fixes files
-```
-yarn lint
+yarn run serve
+npm run serve
 ```
 
 ### Customize configuration
