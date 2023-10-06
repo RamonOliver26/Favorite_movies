@@ -3,7 +3,7 @@
 # Projeto desenvolvido com o intuito de pesquisar ou lembrar seus filmes, séries e jogos  favoritos e em que ano foram lançados, para poder assistir em outras plataformas ou compra-los para seu game favorito.
 # Ainda em desenvolvimento para inclusão de novas funcionalidades.
 
-## Project setup
+## Configuração de projeto
 
 yarn install
 npm install
